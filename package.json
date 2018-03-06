@@ -1,0 +1,19 @@
+{
+  "name": "Nauka-ES6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:js": "globstar jshint *.js",
+    "start": "babel script.js --watch --out-file script-compiled.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "globstar": "^1.0.0",
+    "jshint": "^2.9.5"
+  }
+}
